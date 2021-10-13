@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      
+        <div class="col-xs-12 header_div text-center"> 
+          <h2>Sound controlled Animals</h2>
+           <p>Note: Play different sounds like roar, bark, meow to make the animals dance</p> </div> <div class="main_div"> 
+             <center> 
+               <br> 
+               <button class="btn btn-warning" onclick="startClassification();"> 
+                START 
+              </button> 
+              <h3 id="result_label">I can hear - </h3>
+               <h4 id="result_confidence">Accuracy - </h4> 
+               <br> 
+               <img src="https://static.theprint.in/wp-content/uploads/2021/04/yawning-lion.jpg" id="alien1" width="300" height="300">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" id="alien2" width="300" height="300">
+                 <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" id="alien3" width="300" height="300"> 
+                </center> 
+              </div> 
+              <div class="copy_right_footer"> 
+                Developed by - WhitehatJr Team 
+              </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
